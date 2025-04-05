@@ -1,0 +1,18 @@
+node_modules
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Python
+__pycache__/
+*$py.class
+*.so
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.env/
+.venv/

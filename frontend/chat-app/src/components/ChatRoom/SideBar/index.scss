@@ -1,0 +1,37 @@
+.chat-sidebar {
+    background-image: linear-gradient(
+        to right, 
+        #8653E8, 
+        #D25EC2
+    );
+    padding: 16px;
+    width: 25%;
+    border-radius: 25px 0px 0px 25px;
+    margin: 4px;
+    height: 100vh;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .title {
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 768px) {
+    .chat-sidebar {
+        width: 40%;
+    }
+}
